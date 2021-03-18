@@ -16,6 +16,8 @@ public class RandomExampleApp
 		fname = input.substring(0, input.indexOf(' ', 0));
 		lname = input.substring(input.indexOf(' ', 0) + 1);
 		
+		System.out.println("Print");
+		
 		System.out.println("Your name is: " + fname + " " + lname);
 		sc.close();
 	}
